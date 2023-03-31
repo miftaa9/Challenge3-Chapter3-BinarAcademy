@@ -33,9 +33,3 @@ interface Binar {
 Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolean` sebagai nilainya. 
 Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
 maka akan ditampilkan di dalam list tersebut.
-
-# Tips
-
-Just, hack it bro!
-#� �C�h�a�l�l�e�n�g�e�3�-�C�h�a�p�t�e�r�3�-�B�i�n�a�r�A�c�a�d�e�m�y�
-�
