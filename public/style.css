@@ -1,0 +1,119 @@
+/* Global Style */
+* {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  scroll-margin-top: 50px;
+}
+
+h6 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* End Global Style */
+
+/* NavBar */
+.nav-link {
+  padding: 0;
+}
+/* End NavBar */
+
+/* Hero Section */
+@media screen and (min-width: 960px) {
+  .dec-area img {
+      width: 70%;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .dec-area img {
+      width: 100%;
+  }
+}
+/* End Hero Section */
+
+/* Our Service */
+.service li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.service li img {
+  margin-right: 20px;
+}
+/* End Our Service */
+
+/* WhyUs */
+.why-us {
+  margin-bottom: 50px;
+}
+
+/* .card-area {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+} */
+
+/* .why-us .card img {
+  margin-bottom: 15px;
+} */
+/* End WhyUs */
+
+/* Carousel Testimonial */
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  margin: 0px 8px;
+  margin-top: 24px;   
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background: #5CB85F;
+}
+/* End Carousel Testimonial */
+
+/* Card Banner */
+.card-mobil {
+  background-color: #0d28a6;
+  color: white;
+  border-radius: 13px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+/* End Card Banner */
+
+/* Footer */
+.footer p {
+  padding-bottom: 6px;
+}
+/* End Footer */
